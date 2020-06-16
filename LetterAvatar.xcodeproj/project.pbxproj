@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D5B8D032498EAEE00783D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B8D022498EAEE00783D30 /* AppDelegate.swift */; };
+		5D5B8D052498EAEE00783D30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B8D042498EAEE00783D30 /* ViewController.swift */; };
+		5D5B8D072498EAEF00783D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5B8D062498EAEF00783D30 /* Assets.xcassets */; };
+		5D5B8D0A2498EAEF00783D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5B8D082498EAEF00783D30 /* Main.storyboard */; };
+		5D5B8D172498EB6B00783D30 /* LetterAvatarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B8D132498EB6B00783D30 /* LetterAvatarBuilder.swift */; };
+		5D5B8D182498EB6B00783D30 /* LetterAvatarMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B8D142498EB6B00783D30 /* LetterAvatarMaker.swift */; };
+		5D5B8D192498EB6B00783D30 /* LetterAvatarMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B8D152498EB6B00783D30 /* LetterAvatarMakerExtendable.swift */; };
+		5D5B8D1A2498EB6B00783D30 /* LetterAvatarBuilderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B8D162498EB6B00783D30 /* LetterAvatarBuilderConfiguration.swift */; };
+		5D5B8D202498EB9700783D30 /* NSColor+LetterAvatarKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B8D1C2498EB9700783D30 /* NSColor+LetterAvatarKit.swift */; };
+		5D5B8D212498EB9700783D30 /* NSImage+LetterAvatarKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B8D1D2498EB9700783D30 /* NSImage+LetterAvatarKit.swift */; };
+		5D5B8D222498EB9700783D30 /* String+LetterAvatarKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B8D1E2498EB9700783D30 /* String+LetterAvatarKit.swift */; };
+		5D5B8D232498EB9700783D30 /* Character+LetterAvatarKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B8D1F2498EB9700783D30 /* Character+LetterAvatarKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D5B8CFF2498EAEE00783D30 /* LetterAvatar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetterAvatar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5B8D022498EAEE00783D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D5B8D042498EAEE00783D30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D5B8D062498EAEF00783D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D5B8D092498EAEF00783D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D5B8D0B2498EAEF00783D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5B8D0C2498EAEF00783D30 /* LetterAvatar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LetterAvatar.entitlements; sourceTree = "<group>"; };
+		5D5B8D132498EB6B00783D30 /* LetterAvatarBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterAvatarBuilder.swift; sourceTree = "<group>"; };
+		5D5B8D142498EB6B00783D30 /* LetterAvatarMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterAvatarMaker.swift; sourceTree = "<group>"; };
+		5D5B8D152498EB6B00783D30 /* LetterAvatarMakerExtendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterAvatarMakerExtendable.swift; sourceTree = "<group>"; };
+		5D5B8D162498EB6B00783D30 /* LetterAvatarBuilderConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterAvatarBuilderConfiguration.swift; sourceTree = "<group>"; };
+		5D5B8D1C2498EB9700783D30 /* NSColor+LetterAvatarKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+LetterAvatarKit.swift"; sourceTree = "<group>"; };
+		5D5B8D1D2498EB9700783D30 /* NSImage+LetterAvatarKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSImage+LetterAvatarKit.swift"; sourceTree = "<group>"; };
+		5D5B8D1E2498EB9700783D30 /* String+LetterAvatarKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+LetterAvatarKit.swift"; sourceTree = "<group>"; };
+		5D5B8D1F2498EB9700783D30 /* Character+LetterAvatarKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Character+LetterAvatarKit.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D5B8CFC2498EAEE00783D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D5B8CF62498EAEE00783D30 = {
+			isa = PBXGroup;
+			children = (
+				5D5B8D012498EAEE00783D30 /* LetterAvatar */,
+				5D5B8D002498EAEE00783D30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D5B8D002498EAEE00783D30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B8CFF2498EAEE00783D30 /* LetterAvatar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D5B8D012498EAEE00783D30 /* LetterAvatar */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B8D122498EB4200783D30 /* LetterAvatar */,
+				5D5B8D022498EAEE00783D30 /* AppDelegate.swift */,
+				5D5B8D042498EAEE00783D30 /* ViewController.swift */,
+				5D5B8D062498EAEF00783D30 /* Assets.xcassets */,
+				5D5B8D082498EAEF00783D30 /* Main.storyboard */,
+				5D5B8D0B2498EAEF00783D30 /* Info.plist */,
+				5D5B8D0C2498EAEF00783D30 /* LetterAvatar.entitlements */,
+			);
+			path = LetterAvatar;
+			sourceTree = "<group>";
+		};
+		5D5B8D122498EB4200783D30 /* LetterAvatar */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B8D1B2498EB7F00783D30 /* Extensions */,
+				5D5B8D132498EB6B00783D30 /* LetterAvatarBuilder.swift */,
+				5D5B8D162498EB6B00783D30 /* LetterAvatarBuilderConfiguration.swift */,
+				5D5B8D142498EB6B00783D30 /* LetterAvatarMaker.swift */,
+				5D5B8D152498EB6B00783D30 /* LetterAvatarMakerExtendable.swift */,
+			);
+			path = LetterAvatar;
+			sourceTree = "<group>";
+		};
+		5D5B8D1B2498EB7F00783D30 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B8D1F2498EB9700783D30 /* Character+LetterAvatarKit.swift */,
+				5D5B8D1C2498EB9700783D30 /* NSColor+LetterAvatarKit.swift */,
+				5D5B8D1D2498EB9700783D30 /* NSImage+LetterAvatarKit.swift */,
+				5D5B8D1E2498EB9700783D30 /* String+LetterAvatarKit.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D5B8CFE2498EAEE00783D30 /* LetterAvatar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5B8D0F2498EAEF00783D30 /* Build configuration list for PBXNativeTarget "LetterAvatar" */;
+			buildPhases = (
+				5D5B8CFB2498EAEE00783D30 /* Sources */,
+				5D5B8CFC2498EAEE00783D30 /* Frameworks */,
+				5D5B8CFD2498EAEE00783D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetterAvatar;
+			productName = LetterAvatar;
+			productReference = 5D5B8CFF2498EAEE00783D30 /* LetterAvatar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D5B8CF72498EAEE00783D30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Joel;
+				TargetAttributes = {
+					5D5B8CFE2498EAEE00783D30 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 5D5B8CFA2498EAEE00783D30 /* Build configuration list for PBXProject "LetterAvatar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D5B8CF62498EAEE00783D30;
+			productRefGroup = 5D5B8D002498EAEE00783D30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D5B8CFE2498EAEE00783D30 /* LetterAvatar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D5B8CFD2498EAEE00783D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5B8D072498EAEF00783D30 /* Assets.xcassets in Resources */,
+				5D5B8D0A2498EAEF00783D30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D5B8CFB2498EAEE00783D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5B8D222498EB9700783D30 /* String+LetterAvatarKit.swift in Sources */,
+				5D5B8D232498EB9700783D30 /* Character+LetterAvatarKit.swift in Sources */,
+				5D5B8D192498EB6B00783D30 /* LetterAvatarMakerExtendable.swift in Sources */,
+				5D5B8D172498EB6B00783D30 /* LetterAvatarBuilder.swift in Sources */,
+				5D5B8D182498EB6B00783D30 /* LetterAvatarMaker.swift in Sources */,
+				5D5B8D1A2498EB6B00783D30 /* LetterAvatarBuilderConfiguration.swift in Sources */,
+				5D5B8D052498EAEE00783D30 /* ViewController.swift in Sources */,
+				5D5B8D032498EAEE00783D30 /* AppDelegate.swift in Sources */,
+				5D5B8D212498EB9700783D30 /* NSImage+LetterAvatarKit.swift in Sources */,
+				5D5B8D202498EB9700783D30 /* NSColor+LetterAvatarKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D5B8D082498EAEF00783D30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5B8D092498EAEF00783D30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D5B8D0D2498EAEF00783D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D5B8D0E2498EAEF00783D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5D5B8D102498EAEF00783D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LetterAvatar/LetterAvatar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LetterAvatar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelcho.LetterAvatar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5D5B8D112498EAEF00783D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LetterAvatar/LetterAvatar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LetterAvatar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelcho.LetterAvatar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D5B8CFA2498EAEE00783D30 /* Build configuration list for PBXProject "LetterAvatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5B8D0D2498EAEF00783D30 /* Debug */,
+				5D5B8D0E2498EAEF00783D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5B8D0F2498EAEF00783D30 /* Build configuration list for PBXNativeTarget "LetterAvatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5B8D102498EAEF00783D30 /* Debug */,
+				5D5B8D112498EAEF00783D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D5B8CF72498EAEE00783D30 /* Project object */;
+}
